@@ -1,7 +1,9 @@
 @extends('layout.main')
 
-{{--@section('stylesheets')--}}
-{{--@stop--}}
+@section('title', '| HomePage')
+
+@section('stylesheets')
+@stop
 
 @section('content')
     <div class="row">
@@ -65,5 +67,5 @@
     </div>
 @stop
 
-{{--@section('scripts')--}}
-{{--@stop--}}
+@section('scripts')
+@stop
